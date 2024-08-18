@@ -257,71 +257,6 @@ button:hover{
 
 
 
-@media (max-width: 425px){
-     
-    .header_info{
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        flex-wrap: wrap;
-    }
-
-    .Social_media_Logo{
-
-        margin: 10px;
-        
-    }
-
-    .myname h1{
-        font-size: 48px;
-    }
-
-    .RGOsacn{
-        margin: auto;
-    }
-    
-    .element{
-        margin: 5px;
-    }
-    
-    .el{
-        margin: 5px;
-    }
-
-    .Airdrop_block{
-        display: flex;
-        flex-wrap: wrap;
-        
-    }
-    
-    .Airdrop_info {
-        margin-top: 0;
-    }
-
-    .Airdrop_info span, mark{
-        font-size: 18px;
-    }
-
-    .DEX_info span, mark{
-        font-size: 18px;
-    }
-
-    .DEX_info span, mark{
-        font-size: 18px;
-    }
-    
-    .Wallet_info span, mark{
-        font-size: 18px;
-    }
-
-    .Exchanges_info span, mark{
-        font-size: 18px;
-    
-    }
-
-}
-
-
 
 
 
@@ -349,7 +284,7 @@ button:hover{
     }
     
     .element{
-        margin: 5px;
+        margin: 0px;
     }
      .element{
     align-content: center;
@@ -444,7 +379,7 @@ button:hover{
     }
     
     .element{
-        margin: 5px;
+        margin: 0px;
     }
     
     .el{
