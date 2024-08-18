@@ -257,7 +257,7 @@ button:hover{
 
 
 
-@media (min-width: 412px){
+@media (min-width: 320px){
     .header_info{
         display: flex;
         align-items: center;
