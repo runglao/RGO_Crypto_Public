@@ -307,9 +307,15 @@ button:hover{
      justify-content: space-around;
      margin: 10px; 
     }
-    .el{
-     margin: 15px; 
+
+    .Exchanges_block {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:space-between;
+        margin: 10px; 
     }
+    
+  
     .Exchanges_info span, mark{
      font-size: 18px;
     }
