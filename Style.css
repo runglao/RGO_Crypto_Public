@@ -364,7 +364,7 @@ button:hover{
     align-content: center;
     width: 130px;
     height: 150px;
-    margin: 20px;
+    margin: 5px;
     border-radius: 5px;
     border: 2px solid rgb(18, 233, 240);
     transition: transform 0.5s ease;
