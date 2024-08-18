@@ -255,37 +255,28 @@ button:hover{
 }
 
 
-@media (max-width: 425px){
-     
+@media (max-width: 425px){ 
     .header_info{
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
     }
-
     .Social_media_Logo{
-
-        margin: 10px;
-        
+     margin: 10px; 
     }
-
     .myname h1{
-        font-size: 48px;
+     font-size: 48px;
     }
-
     .RGOsacn{
-        margin: auto;
+    margin: auto;
     }
-
     .Airdrop_block{
     display: flex;
     flex-wrap: wrap;
     justify-content:space-around;
-     margin: 5px;   
+    margin: 15px;   
     }
-   
- 
      .element{
     align-content: center;
     width: 156px;
@@ -293,9 +284,7 @@ button:hover{
     margin: 5px;
     border-radius: 150px;
     border: 4px solid rgb(247, 95, 8);
-   }
-
-
+    }
     .el{
     align-content: center;
     width: 140px;
@@ -305,82 +294,54 @@ button:hover{
     border: 2px solid rgb(18, 233, 240);
     transition: transform 0.5s ease;
     background: linear-gradient(#0F2027, #203A43, #2C5364);
-}
-
-.el:hover{
+    }
+    .el:hover{
     border: 2px solid rgb(247, 64, 8);
     transform: scale(1.1);
-
-    
-    .Airdrop_block{
-        display: flex;
-        flex-wrap: wrap;
-        
     }
-    
     .Airdrop_info {
-        margin-top: 0;
+    margin-top: 0;
     }
-
     .Airdrop_info span, mark{
-        font-size: 18px;
+     font-size: 18px;
     }
-
     .DEX_info span, mark{
-        font-size: 18px;
+     font-size: 18px;
     }
-
     .DEX_info span, mark{
-        font-size: 18px;
+     font-size: 18px;
     }
-    
     .Wallet_info span, mark{
-        font-size: 18px;
+    font-size: 18px;
     }
-
     .Exchanges_info span, mark{
-        font-size: 18px;
-    
+    font-size: 18px;
     }
-
 }
 
 
 
 
 
-@media (max-width: 412px){
-     
+@media (max-width: 412px)
     .header_info{
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
     }
-
     .Social_media_Logo{
-
-        margin: 10px;
-        
+    margin: 10px;   
     }
-
     .myname h1{
-        font-size: 48px;
+    font-size: 48px;
     }
-
     .RGOsacn{
-        margin: auto;
+    margin: auto;
     }
-    
     .element{
-        margin: 0px;
+     margin: 0px;
     }
- 
-
-
-    
-   
-
     .el{
     align-content: center;
     width: 140px;
@@ -390,44 +351,29 @@ button:hover{
     border: 2px solid rgb(18, 233, 240);
     transition: transform 0.5s ease;
     background: linear-gradient(#0F2027, #203A43, #2C5364);
-}
-
-.el:hover{
+    }
+    .el:hover{
     border: 2px solid rgb(247, 64, 8);
     transform: scale(1.1);
-
-    
-    .Airdrop_block{
-        display: flex;
-        flex-wrap: wrap;
-        
     }
-    
     .Airdrop_info {
-        margin-top: 0;
+    margin-top: 0;
     }
-
     .Airdrop_info span, mark{
-        font-size: 18px;
+    font-size: 18px;
     }
-
     .DEX_info span, mark{
-        font-size: 18px;
+     font-size: 18px;
     }
-
     .DEX_info span, mark{
-        font-size: 18px;
+    font-size: 18px;
     }
-    
     .Wallet_info span, mark{
-        font-size: 18px;
+    font-size: 18px;
     }
-
     .Exchanges_info span, mark{
-        font-size: 18px;
-    
+    font-size: 18px;
     }
-
 }
 
 
@@ -435,67 +381,50 @@ button:hover{
 
 
 @media (max-width: 375px) {
-    
     .header_info{
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
     }
-
     .Social_media_Logo{
-
-        margin: 10px;
-        
+    margin: 10px;  
     }
-
     .myname h1{
-        font-size: 48px;
+    font-size: 48px;
     }
-
     .RGOsacn{
-        margin: auto;
+    margin: auto;
     }
-    
     .element{
-        margin: 0px;
+     margin: 0px;
     }
-    
     .el{
-        margin: 15px;
+     margin: 15px;
     }
-
     .Airdrop_block{
-        display: flex;
-        flex-wrap: wrap;
-        margin: 0;
-        
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0; 
     }
     .Airdrop_info {
-        margin-top: 0;
+    margin-top: 0;
     }
     .Airdrop_info span, mark{
-        font-size: 13px;
+     font-size: 13px;
     }
-
     .DEX_info span, mark{
-        font-size: 13px;
+    font-size: 13px;
     }
-
     .DEX_info span, mark{
-        font-size: 13px;
+    font-size: 13px;
     }
-    
     .Wallet_info span, mark{
-        font-size: 13px;
+    font-size: 13px;
     }
-
     .Exchanges_info span, mark{
-        font-size: 13px;
-    
+    font-size: 13px;
     }
-
-
 }
 
 
