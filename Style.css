@@ -258,6 +258,202 @@ button:hover{
 
 
 
+@media (min-width: 475px){
+    .header_info{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .Social_media_Logo{
+
+        margin: 10px;
+        
+    }
+
+    .myname h1{
+        font-size: 48px;
+    }
+
+    .RGOsacn{
+        margin: auto;
+    }
+    
+    .element{
+        margin: 30px;
+    }
+    
+    .el{
+        margin: 30px;
+    }
+
+    .Airdrop_block{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    
+    .Airdrop_info {
+        margin-top: 0;
+    }
+
+    .Airdrop_info span, mark{
+        font-size: 18px;
+    }
+
+    .DEX_info span, mark{
+        font-size: 18px;
+    }
+
+    .DEX_info span, mark{
+        font-size: 18px;
+    }
+    
+    .Wallet_info span, mark{
+        font-size: 18px;
+    }
+
+    .Exchanges_info span, mark{
+        font-size: 18px;
+    
+    }
+
+}
+
+
+
+
+@media (max-width: 425px){
+     
+    .header_info{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .Social_media_Logo{
+
+        margin: 10px;
+        
+    }
+
+    .myname h1{
+        font-size: 48px;
+    }
+
+    .RGOsacn{
+        margin: auto;
+    }
+    
+    .element{
+        margin: 20px;
+    }
+    
+    .el{
+        margin: 20px;
+    }
+
+    .Airdrop_block{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    
+    .Airdrop_info {
+        margin-top: 0;
+    }
+
+    .Airdrop_info span, mark{
+        font-size: 18px;
+    }
+
+    .DEX_info span, mark{
+        font-size: 18px;
+    }
+
+    .DEX_info span, mark{
+        font-size: 18px;
+    }
+    
+    .Wallet_info span, mark{
+        font-size: 18px;
+    }
+
+    .Exchanges_info span, mark{
+        font-size: 18px;
+    
+    }
+
+}
+
+
+
+
+@media (max-width: 375px) {
+    
+    .header_info{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .Social_media_Logo{
+
+        margin: 10px;
+        
+    }
+
+    .myname h1{
+        font-size: 48px;
+    }
+
+    .RGOsacn{
+        margin: auto;
+    }
+    
+    .element{
+        margin: 7px;
+    }
+    
+    .el{
+        margin: 7px;
+    }
+
+    .Airdrop_block{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0;
+        
+    }
+    .Airdrop_info {
+        margin-top: 0;
+    }
+    .Airdrop_info span, mark{
+        font-size: 13px;
+    }
+
+    .DEX_info span, mark{
+        font-size: 13px;
+    }
+
+    .DEX_info span, mark{
+        font-size: 13px;
+    }
+    
+    .Wallet_info span, mark{
+        font-size: 13px;
+    }
+
+    .Exchanges_info span, mark{
+        font-size: 13px;
+    
+    }
+
+
+}
 
 
 
@@ -279,8 +475,7 @@ button:hover{
 
 
 
-
-@media (max-width: 995px) {
+/* @media (max-width: 995px) {
     
     .Social_media_Logo {
         display: flex;
@@ -403,3 +598,4 @@ button:hover{
     }
 
 }
+ */
