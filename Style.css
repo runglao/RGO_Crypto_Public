@@ -285,51 +285,7 @@ button:hover{
     }
 }
 
-
-@media (min-width: 425px){
-    
-    .Airdrop_block {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-    .Dex_block{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-    .Wallet_block{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-    .Exchanges_block{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-    
-    .header_info {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-    .Social_media_Logo{
-        margin-top: 10px;
-    }
-    .Airdrop_info{
-        margin-top: 0px;
-    }
-    .myname h1{
-        font-size: 55px;
-    }
-    .RGOsacn{
-        margin: 10px;
-    }
-}
-
-@media (min-width: 412px){
+@media (min-width: 440px){
     .header_info {
         display: flex;
         align-items: center;
@@ -379,6 +335,51 @@ button:hover{
         margin: 0px;
     }
 }
+
+
+@media (min-width: 425px){
+    
+    .Airdrop_block {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .Dex_block{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .Wallet_block{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .Exchanges_block{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    .header_info {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .Social_media_Logo{
+        margin-top: 10px;
+    }
+    .Airdrop_info{
+        margin-top: 0px;
+    }
+    .myname h1{
+        font-size: 55px;
+    }
+    .RGOsacn{
+        margin: 10px;
+    }
+}
+
 
 @media (min-width: 375px){
     .header_info {
