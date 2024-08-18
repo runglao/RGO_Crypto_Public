@@ -311,8 +311,8 @@ button:hover{
     .Exchanges_block {
      display: flex;
      flex-wrap: wrap;
-     justify-content:space-between;
-     margin: 10px; 
+     justify-content: space-around;
+     
     }
     
   
