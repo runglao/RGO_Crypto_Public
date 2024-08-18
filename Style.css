@@ -351,12 +351,31 @@ button:hover{
     .element{
         margin: 5px;
     }
+
+
+
     
     .el{
         margin: 5px;
         
     }
 
+    .el{
+    align-content: center;
+    width: 130px;
+    height: 150px;
+    margin: 20px;
+    border-radius: 5px;
+    border: 2px solid rgb(18, 233, 240);
+    transition: transform 0.5s ease;
+    background: linear-gradient(#0F2027, #203A43, #2C5364);
+}
+
+.el:hover{
+    border: 2px solid rgb(247, 64, 8);
+    transform: scale(1.1);
+
+    
     .Airdrop_block{
         display: flex;
         flex-wrap: wrap;
