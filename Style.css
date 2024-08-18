@@ -255,7 +255,7 @@ button:hover{
 }
 
 
-@media (max-width: 425px){ 
+@media (max-width: 412px){ 
     .header_info{
     display: flex;
     align-items: center;
