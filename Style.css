@@ -277,7 +277,7 @@ media (max-width: 1400px){
     }
     .Social_media_Logo{
         margin-top: 10px;
-        gap: 3em;
+        gap: 1em;
     }
 }
 
@@ -300,5 +300,7 @@ media (max-width: 1400px){
     .el{
         margin: 10px;
     }
+    .Airdrop_info{
+        margin:5px;
 }
 
