@@ -272,28 +272,6 @@ button:hover{
     margin: auto;
     }
  
-     .element{
-    align-content: center;
-    width: 156px;
-    height: 156px;
-    margin: 5px;
-    border-radius: 150px;
-    border: 4px solid rgb(247, 95, 8);
-    }
-    .el{
-    align-content: center;
-    width: 140px;
-    height: 150px;
-    margin: 15px;
-    border-radius: 5px;
-    border: 2px solid rgb(18, 233, 240);
-    transition: transform 0.5s ease;
-    background: linear-gradient(#0F2027, #203A43, #2C5364);
-    }
-    .el:hover{
-    border: 2px solid rgb(247, 64, 8);
-    transform: scale(1.1);
-    }
     .image ,img{
     margin-bottom: 5px;
    
@@ -301,41 +279,42 @@ button:hover{
     .Airdrop_info {
     margin-top: 0;
     }
-       .Airdrop_block{
+   
+    .Airdrop_info span, mark{
+     font-size: 18px;
+    }
+    .Airdrop_block{
     display: flex;
     flex-wrap: wrap;
     justify-content:space-around;
     margin: 10px;   
     }
-    .Airdrop_info span, mark{
-     font-size: 18px;
-    }
     .DEX_info span, mark{
      font-size: 18px;
     }
-   .Dex_block{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        margin: 10px; 
+    .Dex_block{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-around;
+     margin: 10px; 
     } 
     .Wallet_info span, mark{
     font-size: 18px;
     }
-      .Wallet_block{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        margin: 10px; 
+    .Wallet_block{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-around;
+     margin: 10px; 
     }
-      .Exchanges_block{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        margin: 10px; 
+    .Exchanges_block{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-around;
+     margin: 10px; 
     }
     .Exchanges_info span, mark{
-    font-size: 18px;
+     font-size: 18px;
     }
 }
 
