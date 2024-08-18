@@ -255,68 +255,69 @@ button:hover{
 }
 
 
-@media (max-width: 412px){ 
+
+
+@media (min-width: 412px){
     .header_info{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
     }
     .Social_media_Logo{
-     margin: 10px; 
+        margin: 10px; 
     }
     .myname h1{
-     font-size: 48px;
+        font-size: 48px;
     }
     .RGOsacn{
-    margin: auto;
+        margin: auto;
     }
- 
-    .Airdrop_info {
-    margin-top: 0;
+    .element{
+        margin: 5px;
+    }
+    .el{
+        margin: 15px;
     }
    
-    .Airdrop_info span, mark{
-     font-size: 18px;
+    .Airdrop_info {
+        margin-top: 0;
     }
     .Airdrop_block{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:space-around;
-    margin: 10px;   
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 10px;  
     }
-    .DEX_info span, mark{
-     font-size: 18px;
+    .Airdrop_info span, mark{
+        font-size: 18px;
     }
     .Dex_block{
-     display: flex;
-     flex-wrap: wrap;
-     justify-content: space-around;
-     margin: 10px; 
-    } 
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 10px; 
+    }   
     .Wallet_info span, mark{
-    font-size: 18px;
+        font-size: 18px;
     }
     .Wallet_block{
-     display: flex;
-     flex-wrap: wrap;
-     justify-content: space-around;
-     margin: 10px; 
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 10px; 
     }
-
-    .Exchanges_block {
-     display: flex;
-     flex-wrap: wrap;
-     justify-content: space-around;
-     
-    }
-    
-  
     .Exchanges_info span, mark{
-     font-size: 18px;
+        font-size: 18px;
     }
-}
+    .Exchanges_block {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 5px; 
+    }
 
+}
 
 
 
