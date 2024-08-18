@@ -296,7 +296,7 @@ button:hover{
     }
     .image ,img{
     margin-bottom: 5px;
-    text-align: center;
+   
     }
     .Airdrop_info {
     margin-top: 0;
@@ -305,7 +305,7 @@ button:hover{
     display: flex;
     flex-wrap: wrap;
     justify-content:space-around;
-    margin: 15px;   
+    margin: 10px;   
     }
     .Airdrop_info span, mark{
      font-size: 18px;
