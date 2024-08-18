@@ -256,208 +256,49 @@ button:hover{
 }
 
 
+media (max-width: 1400px){
+    .Airdrop_block{
+        justify-content: space-around;
+    }
+    .Dex_block{
+        justify-content: space-around;
+    }
+    .Wallet_block{
+        justify-content: space-around;
+    }
+    .Exchanges_block{
+        justify-content: space-around;
+    }
+}
 
-
-@media (min-width: 1024px){
+@media (max-width: 991px){
     .header_info{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        flex-wrap: wrap;
-    }
-}
-   
-
-
-@media (min-width: 768px){
-    
-    .header_info {
-        display: flex;
-        align-items: center;
-        justify-content:space-between;
-        flex-wrap: wrap;
+        justify-content: space-around;
     }
     .Social_media_Logo{
         margin-top: 10px;
-    }
-    .Airdrop_info{
-        margin-top: 10px;
+        gap: 3em;
     }
 }
 
-@media (min-width: 440px){
-    .header_info {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-    .Airdrop_block {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-    .Dex_block{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-    .Wallet_block{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-    .Exchanges_block{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-    
-    .header_info {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-    .Social_media_Logo{
-        margin-top: 10px;
-    }
-    .Airdrop_info{
-        margin-top: 0px;
-    }
+@media (max-width: 770px){
     .myname h1{
-        font-size: 55px;
+        font-size: 60px;
     }
-    .RGOsacn{
-        margin: 10px;
+    .header_info{
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 417px){
+    .header_info{
+        justify-content: space-around;
     }
     .element{
-        margin: 0px;
-    }
-}
-
-
-@media (min-width: 425px){
-    
-    .Airdrop_block {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-    .Dex_block{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-    .Wallet_block{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-    .Exchanges_block{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-    
-    .header_info {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-    .Social_media_Logo{
-        margin-top: 10px;
-    }
-    .Airdrop_info{
-        margin-top: 0px;
-    }
-    .myname h1{
-        font-size: 55px;
-    }
-    .RGOsacn{
         margin: 10px;
-    }
-}
-
-
-@media (min-width: 375px){
-    .header_info {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-    .Social_media_Logo{
-        margin-top: 10px;
-    }
-    .Airdrop_info{
-        margin-top: 10px;
-    }
-    .myname h1{
-        font-size: 40px;
-    }
-    .element{
-        margin: 7px;
     }
     .el{
-        width: 115px;
-        height: 190px;
-        margin: 25px;
+        margin: 10px;
     }
 }
-
-
-@media (min-width: 320px){
-    .header_info {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-    .myname h1{
-        font-size: 40px;
-    }
-    .Social_media_Logo{
-        margin-top: 10px;
-    }
-    .Airdrop_info{
-        margin-top: 0;
-    }
-    .element{
-        border: none;
-        margin: -8px;
-    }
-   .element img{
-    display: flex;
-    align-items: center;
-    justify-content:space-around;
-    flex-wrap: wrap;
-    margin: auto;
-    height: 120px;    
-    width: 120px;
-    border: 1px solid;
-    border-radius: 100px;
-    border: 4px solid rgb(247, 95, 8);
-    transition: transform 0.5s ease;
-    
-   }
-   .element img:hover{
-     border: 5px solid rgb(7, 214, 24);
-     transform: scale(1.05);
-     box-shadow: 1px 3px  5px;
-   }
-   .el{
-    align-content: center;
-    width: 125px;
-    height: 170px;
-    margin: 10px;
-   }
-   
-}
-
-
-
-
-
 
