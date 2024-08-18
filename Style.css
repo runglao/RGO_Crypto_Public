@@ -271,12 +271,7 @@ button:hover{
     .RGOsacn{
     margin: auto;
     }
-    .Airdrop_block{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:space-around;
-    margin: 15px;   
-    }
+ 
      .element{
     align-content: center;
     width: 156px;
@@ -302,272 +297,45 @@ button:hover{
     .Airdrop_info {
     margin-top: 0;
     }
+       .Airdrop_block{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    margin: 15px;   
+    }
     .Airdrop_info span, mark{
      font-size: 18px;
     }
     .DEX_info span, mark{
      font-size: 18px;
     }
-    .DEX_info span, mark{
-     font-size: 18px;
-    }
-    .Wallet_info span, mark{
-    font-size: 18px;
-    }
-    .Exchanges_info span, mark{
-    font-size: 18px;
-    }
-}
-
-
-
-
-
-@media (max-width: 412px)
-    .header_info{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    }
-    .Social_media_Logo{
-    margin: 10px;   
-    }
-    .myname h1{
-    font-size: 48px;
-    }
-    .RGOsacn{
-    margin: auto;
-    }
-    .element{
-     margin: 0px;
-    }
-    .el{
-    align-content: center;
-    width: 140px;
-    height: 150px;
-    margin: 15px;
-    border-radius: 5px;
-    border: 2px solid rgb(18, 233, 240);
-    transition: transform 0.5s ease;
-    background: linear-gradient(#0F2027, #203A43, #2C5364);
-    }
-    .el:hover{
-    border: 2px solid rgb(247, 64, 8);
-    transform: scale(1.1);
-    }
-    .Airdrop_info {
-    margin-top: 0;
-    }
-    .Airdrop_info span, mark{
-    font-size: 18px;
-    }
-    .DEX_info span, mark{
-     font-size: 18px;
-    }
-    .DEX_info span, mark{
-    font-size: 18px;
-    }
-    .Wallet_info span, mark{
-    font-size: 18px;
-    }
-    .Exchanges_info span, mark{
-    font-size: 18px;
-    }
-}
-
-
-
-
-
-@media (max-width: 375px) {
-    .header_info{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    }
-    .Social_media_Logo{
-    margin: 10px;  
-    }
-    .myname h1{
-    font-size: 48px;
-    }
-    .RGOsacn{
-    margin: auto;
-    }
-    .element{
-     margin: 0px;
-    }
-    .el{
-     margin: 15px;
-    }
-    .Airdrop_block{
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0; 
-    }
-    .Airdrop_info {
-    margin-top: 0;
-    }
-    .Airdrop_info span, mark{
-     font-size: 13px;
-    }
-    .DEX_info span, mark{
-    font-size: 13px;
-    }
-    .DEX_info span, mark{
-    font-size: 13px;
-    }
-    .Wallet_info span, mark{
-    font-size: 13px;
-    }
-    .Exchanges_info span, mark{
-    font-size: 13px;
-    }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* @media (max-width: 995px) {
-    
-    .Social_media_Logo {
+   .Dex_block{
         display: flex;
-        margin: auto;
-        margin-top: 10px;
-
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 10px; 
+    } 
+    .Wallet_info span, mark{
+    font-size: 18px;
     }
-    .RGOsacn{
-        margin: auto;
-    }
-    .myname{
-        margin: auto;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-    .element{
-        margin: auto;
-    }
-    .el{
-        margin: auto;
-    }
-    .Airdrop_block{
-        padding: 30px;
-        gap: 20px;
-    }
-    .Dex_block{
-        padding: 30px;
-        gap: 20px;
-    }
-    .Wallet_block{
-        padding: 30px;
-        gap: 20px;
-    }
-    
-    .Exchanges_block{
-        padding: 30px;
-        gap: 40px; 
-    }
-
-}
-
-@media (max-width: 767px) {
-    .Social_media_Logo {
+      .Wallet_block{
         display: flex;
-        margin: auto;
-        margin-top: 10px;
-
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 10px; 
     }
-    .RGOsacn{
-        margin: auto;
+      .Exchanges_block{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 10px; 
     }
-    .myname{
-        margin: auto;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-    .element{
-        margin: auto;
-    }
-    .el{
-        margin: auto;
-    }
-    .Airdrop_block{
-        padding: 30px;
-        gap: 20px;
-    }
-    .Dex_block{
-        padding: 40px;
-        gap: 20px;
-    }
-    .Wallet_block{
-        padding: 30px;
-        gap: 20px;
-    }
-    
-    .Exchanges_block{
-        padding: 30px;
-        
-        gap: 40px; 
-    }
-
-    .myname h1{
-        font-size: 60px;
-        margin: auto;
+    .Exchanges_info span, mark{
+    font-size: 18px;
     }
 }
 
-@media (max-width: 455px) {
 
 
-    .myname h1 {
-      font-size: 40px;
-      flex-wrap: wrap;
-      margin-top: 20px;
-      margin-bottom: 20px;
 
-    }
-        
-}
 
-@media (max-width: 418px) {
-    .element{
-        
-        margin: auto;
-    }
-    .el{
-        margin: auto;
-    }
-    .Airdrop_block{
-        margin-top: 10px;
-        margin-bottom: 10px;
-        gap: 20px;
-    }
-    
-    
-    .myname h1 {
-        margin: auto;
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-
-}
- */
