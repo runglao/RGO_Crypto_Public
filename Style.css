@@ -277,7 +277,12 @@ button:hover{
     .RGOsacn{
         margin: auto;
     }
-    
+
+    .Airdrop_block{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    }
    
  
      .element{
