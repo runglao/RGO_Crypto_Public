@@ -307,7 +307,10 @@ media (max-width: 1400px){
     .DEX_info {
         font-size: 14px;
     }
-    .Wallet_Info {
+    .Wallet_info {
+        font-size: 14px;
+    }
+    .Exchanges_info {
         font-size: 14px;
     }
 }
