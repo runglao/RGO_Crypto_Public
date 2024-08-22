@@ -303,5 +303,10 @@ media (max-width: 1400px){
     .Airdrop_info{
         margin:5px;
         font-size: 14px;
+    }
+    .DEX_info {
+        font-size: 14px;
+    }
 }
+    
 
